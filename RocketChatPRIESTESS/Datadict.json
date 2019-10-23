@@ -1,0 +1,8 @@
+{
+    "chatid": "CHAT_ID",
+    "condition": "1",
+    "lowerbound": 10001,
+    "password": "PASSWORD",
+    "upperbound": 20000,
+    "username": "USERNAME"
+}

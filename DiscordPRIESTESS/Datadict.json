@@ -1,0 +1,7 @@
+{
+    "chatid": "CHATID",
+    "condition": "1",
+    "lowerbound": 10001,
+    "upperbound": 20000,
+    "token": "TOKENNAME"
+}
