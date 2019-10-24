@@ -59,5 +59,5 @@ PRIESTESS is made with a modular structure to enable relatively easy modificatio
 <h2>Contributions</h2>
 
 - The Dutch spellcheck uses a lexicon derived from the SUBTIEL corpus ([Van der Lee & Van den Bosch, 2017](https://www.aclweb.org/anthology/W17-1224/))<br/>
-- The Dutch first names database is based on first name data from FROG ([Van den Bosch et al., 2007](https://ilk.uvt.nl/downloads/pub/papers/tadpole-final.pdf))<br/>
+- The Dutch first names database is based on first name data from [FROG](https://github.com/LanguageMachines/frog) ([Van den Bosch et al., 2007](https://ilk.uvt.nl/downloads/pub/papers/tadpole-final.pdf))<br/>
 - Some of the models come from [PASS](https://github.com/tallchris91/pass) ([Van der Lee et al., 2017](https://www.aclweb.org/anthology/W17-3513))<br/>
