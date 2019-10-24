@@ -56,6 +56,14 @@ PRIESTESS is made with a modular structure to enable relatively easy modificatio
 - <b>Template_Filler_Module.py</b> finds and fills the placeholder gaps in the templates. 
 - <b>Template_Filler_Rule_Module.py</b> returns the relevant information to fill the gap in Template_Filler_Module.py.
 
+Furthermore, RocketChat has some extra modules:
+
+- <b>Chat_Interaction_Module.py</b> checks if a user has made a reply every n seconds. There's no fancy await/async integration for the RocketChat_API that I know of, so this was used as a workaround.
+- <b>Extra_Commands_Module.py</b> contains some... extra commands. It's main use is to clear the chat after a participant has finished talking to PRIESTESS, to find the last message in the chat, and to find the first response to PRIESTESS's questions.
+- <b>Save_Chat_Module.py</b> saves the chat. No surprises there.
+
+Templates are Excel files found in the /Templates/ folder. They can easily be changed or translated to other languages. Databases are lexicons used by the spellchecker and by Answer_Understanding_Module.py to understand answers.
+
 <h2>Contributions</h2>
 
 - The Dutch spellcheck uses a lexicon derived from the SUBTIEL corpus ([Van der Lee & Van den Bosch, 2017](https://www.aclweb.org/anthology/W17-1224/))<br/>
