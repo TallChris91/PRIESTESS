@@ -24,7 +24,7 @@ For the Discord version specifically:
 [Discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing/)
 
 For the RocketChat version:
-[Multiprocess](https://pypi.org/project/multiprocess/)
+[Multiprocess](https://pypi.org/project/multiprocess/)<br/>
 [RocketChat_API](https://github.com/jadolg/rocketchat_API/)
 
 <h2>Usage</h2>
