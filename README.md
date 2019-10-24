@@ -20,10 +20,10 @@ For both chatbot implementations:<br/>
 [xlrd](https://pypi.org/project/xlrd/)<br/>
 [pytz](https://pypi.org/project/pytz/)<br/>
 
-For the Discord version specifically:
+For the Discord version specifically:<br/>
 [Discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing/)
 
-For the RocketChat version:
+For the RocketChat version:<br/>
 [Multiprocess](https://pypi.org/project/multiprocess/)<br/>
 [RocketChat_API](https://github.com/jadolg/rocketchat_API/)
 
