@@ -3,7 +3,7 @@ Self-disclosure chatbot for RocketChat and Discord
 
 <h2>About</h2>
 
-PRIESTESS is a Dutch chatbot written for an experiment at Lowlands science. It first tries to engage with a user by asking about their name and their experiences at Lowlands, after which the chatbot asks the user to confess a secret. 
+PRIESTESS is a Dutch chatbot written for an experiment at [Lowlands Science](https://lowlands.nl/programma/ll-science-geheimen-delen-met-een-chatbot/). It first tries to engage with a user by asking about their name and their experiences at Lowlands, after which the chatbot asks the user to confess a secret. 
 
 The chatbot tries to reply to all information that the user provides with empathy (as much as a chatbot could do...). 
 
