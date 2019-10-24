@@ -19,13 +19,13 @@ For both chatbot implementations:<br/>
 [spaCy](https://spacy.io/usage/)<br/>
 [xlrd](https://pypi.org/project/xlrd/)<br/>
 [pytz](https://pypi.org/project/pytz/)<br/>
-[RocketChat_API](https://github.com/jadolg/rocketchat_API/)
 
 For the Discord version specifically:
 [Discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing/)
 
 For the RocketChat version:
 [Multiprocess](https://pypi.org/project/multiprocess/)
+[RocketChat_API](https://github.com/jadolg/rocketchat_API/)
 
 <h2>Usage</h2>
 
