@@ -52,7 +52,6 @@ PRIESTESS is made with a modular structure to enable relatively easy modificatio
 - <b>Discord_Interaction_Module.py</b> or <b>Governing_Module.py</b> iterates over all the pre-set conversation topics, sends the messages linked to the topics, and activates the relevant modules after receiving an answer.
 - <b>Lookup_Module.py</b> opens the template database and retrieves all the template categories and corresponding templates that are used by the chatbot
 - <b>Participant_Number_Module.py</b> ensures that every user gets a new number assigned to them when saving the chats. Especially useful when you're doing experiments.
-- <b>Ruleset_Module.py</b> checks for each template category if the conditions to use said category have been matched.
 - <b>Template_Filler_Module.py</b> finds and fills the placeholder gaps in the templates. 
 - <b>Template_Filler_Rule_Module.py</b> returns the relevant information to fill the gap in Template_Filler_Module.py.
 
