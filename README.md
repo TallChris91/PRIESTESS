@@ -1,6 +1,12 @@
 # PRIESTESS
 Self-disclosure chatbot for RocketChat and Discord
 
+<h2>About</h2>
+
+PRIESTESS is a Dutch chatbot written for an experiment at Lowlands science. It first tries to engage with a user by asking about their name and their experiences at Lowlands, after which the chatbot asks the user to confess a secret. 
+
+The chatbot tries to reply to all information that the user provides with empathy (as much as a chatbot could do...). 
+
 <h2>Installation</h2>
 
 PRIESTESS is written in Python 3. For the chatbot you need the following libraries:
@@ -40,7 +46,18 @@ Then, set <b>line 447</b> in <b>Answer_Understanding_Module.py</b> to the LIWC f
 
 <h2>Modules</h2>
 
+PRIESTESS is made with a modular structure to enable relatively easy modifications and additions.
+
+- <b>Answer_Understanding_Module.py</b> contains all the natural language understanding functions to make sense of the chat answers. For this, the current version of PRIESTESS uses Pattern.nl's ([De Smedt, & Daelemans, 2012](http://www.jmlr.org/papers/volume13/desmedt12a/desmedt12a.pdf)) and LIWC 2015's ([Pennebaker et al., 2015](https://s3-us-west-2.amazonaws.com/downloads.liwc.net/LIWC2015_OperatorManual.pdf)) lexicon-based approaches.
+- <b>Discord_Interaction_Module.py</b> or <b>Governing_Module.py</b> iterates over all the pre-set conversation topics, sends the messages linked to the topics, and activates the relevant modules after receiving an answer.
+- <b>Lookup_Module.py</b> opens the template database and retrieves all the template categories and corresponding templates that are used by the chatbot
+- <b>Participant_Number_Module.py</b> ensures that every user gets a new number assigned to them when saving the chats. Especially useful when you're doing experiments.
+- <b>Ruleset_Module.py</b> checks for each template category if the conditions to use said category have been matched.
+- <b>Template_Filler_Module.py</b> finds and fills the placeholder gaps in the templates. 
+- <b>Template_Filler_Rule_Module.py</b> returns the relevant information to fill the gap in Template_Filler_Module.py.
+
 <h2>Contributions</h2>
-- The Dutch spellcheck was made possible thanks to the SUBTIEL corpus (Van der Lee & Van den Bosch, 2017)
-- The Dutch first names database is based on the first name data from FROG (Van den Bosch et al., 2007)
-- The modular structure is based on PASS (Van der Lee et al., 2017)
+
+- The Dutch spellcheck uses a lexicon derived from the SUBTIEL corpus ([Van der Lee & Van den Bosch, 2017](https://www.aclweb.org/anthology/W17-1224/))<br/>
+- The Dutch first names database is based on first name data from FROG ([Van den Bosch et al., 2007](https://ilk.uvt.nl/downloads/pub/papers/tadpole-final.pdf))<br/>
+- Some of the models come from [PASS](https://github.com/tallchris91/pass) ([Van der Lee et al., 2017](https://www.aclweb.org/anthology/W17-3513))<br/>
